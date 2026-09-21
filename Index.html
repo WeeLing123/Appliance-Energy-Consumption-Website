@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width", initial-scale="1.0">
+    <title>EcoPower - Appliance Energy Consumption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container" id="logo" title="Back to Home">
+                <img src="PowerIcon.png" alt="Power Logo" class="power-logo-img">
+                <span class="logo-text">EcoPower</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#" class="nav-item active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-item" data-page="televisions">Televisions</a></li>
+                <li><a href="#" class="nav-item" data-page="about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <!--Home page-->
+        <section id="home" class="page-section active">
+            <h1>Appliance Energy Use in Australia</h1>
+            <p>This site gives a simple overview of household appliance energy consumption in the Australian market.</p>
+            
+            <div class="card">
+                <h3>Quick Facts</h3>
+                <ul>
+                    <li><strong>Energy labels (star ratings):</strong> Help compare appliance efficiency at a glance.</li>
+                    <li><strong>Standby power:</strong> Can add unexpected costs—turn devices fully off when not in use.</li>
+                    <li><strong>Efficiency pays back:</strong> Choosing higher-efficiency models usually pays back through lower electricity bills.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Television page-->
+        <section id="televisions" class="page-section">
+            <h1>Television Energy Tips</h1>
+            <br><p><strong>Size & technology matter.</strong> Larger screens and older tech (e.g., plasma) use more energy. Modern LED/LCD and OLED sets are generally more efficient.</p>
+            
+            <div class="card">
+                <h3>Energy Saving Tips</h3>
+                <ul>
+                    <li>Use the TV's Energy Saver or Eco mode and reduce brightness where comfortable.</li>
+                    <li>Disable “always-listening” voice features if you don't use them; they can add standby draw.</li>
+                    <li>Consider star rating and annual kWh on the energy label when purchasing.</li>
+                </ul>
+            </div>
+
+            <br><h2>TV Energy Insights: Data Story</h2>
+            <br><p>This section presents findings from the Australian Government's Television Energy Rating dataset. The aim is to help Australian consumers make informed decisions about technology, size, brand, and efficiency.</p>
+
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <br><h3>Chart 1: What TV technologies are most common?</h3>
+                    <br><img src="Pie Chart Q1.png" alt="TV Technologies Distribution" class="chart-img">
+                    <br><p>Most TVs in Australia are LCD LED, while OLED is less common.</p>
+                </div>
+                
+                <div class="chart-card">
+                    <br><h3>Chart 2: What screen sizes are most frequent?</h3>
+                    <br><img src="Bar Chart Q2 What screen sizes are available.png" alt="Most frequent screen sizes" class="chart-img">
+                    <br><p>65-inch TVs are the most common, followed by mid-range sizes like 55-85 inches.</p>
+                </div>
+
+                <div class="chart-card">
+                    <br><h3>Chart 3: Which brands dominate the market?</h3>
+                    <br><img src="Bar Chart Q3 Which brands have the largest.png" alt="Most frequent screen sizes" class="chart-img">
+                    <br><p>KOGAN, LG and Samsung Electronics have the largest number of models on the Australian market.</p>
+                </div>
+
+                <div class="chart-card">
+                    <br><h3>Chart 4: Which screen type uses the least power?</h3>
+                    <br><img src="Bar Chart Q4.png" alt="Most frequent screen sizes" class="chart-img">
+                    <br><p>LCD TVs consume the least power, while OLEDs use slightly more but offer higher performance.</p>
+                </div>
+
+                <div class="chart-card">
+                    <br><h3>Chart 5: What is the relationship between screen size and power use?</h3>
+                    <br><img src="Scatter Plot Q5.png" alt="Most frequent screen sizes" class="chart-img">
+                    <br><p>Larger TVs use more power, the relationship is clearly positive.</p>
+                </div>
+
+                <div class="chart-card">
+                    <br><h3>Chart 6: What is the relationship between star rating and screen size?</h3>
+                    <br><img src="Scatter Plot Q6.png" alt="Most frequent screen sizes" class="chart-img">
+                    <br><p>Star ratings are fairly distributed across all sizes; bigger TVs can still be efficient if well designed.</p>
+                </div>
+            </div>
+
+            <br><h2>Conclusion</h2>
+            <br><p>When choosing a TV, balance size, brand, and efficiency. A 65-inch LED TV is common and energy-smart for most households.</p>
+        </section>
+
+        <!--About us page-->
+        <section id="about" class="page-section">
+            <h1>About This Site</h1>
+            <br><p>This educational website demonstrates basic web development and shares simple pointers on appliance energy consumption in Australia.</p>
+            
+            <div class="card">
+                <h3>Credits</h3><br>
+                <p>Created by <strong>Wee Ling THONG</strong>. Design colours match the lightning “power” logo.</p><br>
+                <p>GenAI tools were used to help draft starter code and placeholder text.</p><br>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; <span id="year"></span> [Wee Ling THONG]. All rights reserved.</p>
+        <p class="genai-ack">Built with assistance from GenAI (Google Gemini) for starter code/content .</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
