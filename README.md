@@ -86,7 +86,7 @@ When choosing a TV in Australia, consumers should balance screen size, brand rel
 
 ## About the Data
 
-- **Data Source:** Australian Government Dataset ([data.gov.au](https://data.gov.au) Energy Rating Data for household appliances – Labelled Product Televisions.
+- **Data Source:** Australian Government Dataset ([data.gov.au](https://data.gov.au)) Energy Rating Data for household appliances – Labelled Product Televisions.
 - **Data Processing:** Cleaned, filtered, and aggregated using the KNIME Analytics Platform (e.g., removing duplicate models, categorizing brands, and standardizing screen size measurements).
 - **Privacy:** The dataset contains publicly available product registration data from manufacturers; no personal, private, or user-identifiable data is involved.
 - **Accuracy & Limitations:** The dataset reflects officially registered appliance models in Australia up to 2026. Limitations include potential variations in actual household energy usage depending on non-standard viewing environments, custom brightness settings, and daily usage hours.
